@@ -19,13 +19,16 @@ function Header() {
       <div className="isolate bg-[#A78B71]">
         <div className="px-6 pt-6 lg:px-8">
           <nav className="flex items-center justify-center" aria-label="Global">
+           
             <div className="mr-auto hidden lg:flex">
+            <Link to="/">
               <img
                 src={logo}
                 alt="logo"
-                className="h-10 w-10 object-cover rounded-lg"
-              />
+                className="h-12 w-14 object-cover rounded-lg"
+              /> </Link>
             </div>
+           
 
             <div className="flex mr-auto lg:hidden">
               <button
@@ -98,7 +101,7 @@ function Header() {
                   Av. Yudum ALTAN BAKIR
                 </h1>
                 <p
-                  className={`${styles.overlay} mt-6 text-lg leading-8 text-gray-300`}
+                  className={`${styles.overlay} mt-6 text-lg leading-8 text-gray-200`}
                 >
                   Size en iyi hukuki hizmeti sunmak için, yasal süreçlerde her
                   adımda sizinle birlikteyiz. Profesyonel ve güvenilir bir hukuk

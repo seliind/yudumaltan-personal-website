@@ -16,9 +16,16 @@ function NavBar() {
     <div className="bg-[#A78B71] w-full h-10 sm:h-12 md:h-20 shadow-xl">
       <div className="px-6 pt-2 lg:px-8">
         <nav className="flex items-center justify-center" aria-label="Global">
-        <div className="mr-auto hidden lg:flex">
-            <img src={logo} alt="logo" className="h-10 w-10 object-cover rounded-lg"/>
-            </div>
+          <div className="mr-auto hidden lg:flex items-center">
+            <Link to="/">
+              <img
+                src={logo}
+                alt="logo"
+                className="h-12 w-14 object-cover rounded-lg"
+              />{" "}
+            </Link>
+          </div>
+
           <div className="flex mr-auto lg:hidden">
             <button
               type="button"

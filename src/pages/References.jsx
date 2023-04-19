@@ -32,7 +32,7 @@ const testimonials = [
         img: img4,
       },
       {
-        body: "Makserbe Mühendislik",
+        body: "Makser3e Mühendislik",
         img: img7,
       },
     ],
