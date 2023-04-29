@@ -45,7 +45,7 @@ function Header() {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-sm font-semibold leading-6 text-gray-100 hover:bg-white rounded-sm px-2 hover:text-[#A78B71] hover:scale-110 hover:border-r-2"
+                  className="text-sm font-semibold leading-6 text-gray-100 hover:bg-white rounded-sm px-2 hover:text-[#A78B71] hover:scale-105"
                 >
                   {item.name}
                 </Link>
