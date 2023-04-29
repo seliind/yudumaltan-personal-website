@@ -24,7 +24,6 @@ const testimonials = [
         body: "Yaz-Pet Petrol",
         img: img6,
       },
-      
     ],
     [
       {
@@ -83,32 +82,26 @@ function References() {
       <div className="relative isolate bg-white pb-32 pt-5 sm:pt-8">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-xl text-center">
-            <h2 className="text-lg font-semibold leading-8 tracking-tight text-[#A78B71]">
+            <h1 className="text-3xl font-bold leading-8 tracking-tight  text-[#583E26] sm:text-4xl">
               Referanslar
-            </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-[#583E26] sm:text-4xl">
+            </h1>
+            <p className="mt-2 text-lg font-semibold tracking-tight text-[#A78B71]">
               Birlikte çalıştığımız müvekkillerden bir kısmını aşağıda
               bulabilirsiniz.
             </p>
           </div>
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
+          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-14 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
             <figure className="col-span-2 hidden sm:block sm:rounded-2xl sm:bg-white sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 xl:col-start-2 xl:row-end-1">
               <blockquote className="p-12 text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>{`${featuredTestimonial.body}`}</p>
               </blockquote>
-              <figcaption className="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
+              <div className="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
                 <div className="flex-auto">
-                  <div className="font-semibold">
-                    Av. Yudum Altan Bakır
-                  </div>
+                  <div className="font-semibold p-1">Av. Yudum Altan Bakır</div>
                   <div className="text-gray-600">avyudumaltan@gmail.com</div>
                 </div>
-                <img
-                  className="h-10 w-auto flex-none"
-                  src={logo}
-                  alt="logo"
-                />
-              </figcaption>
+                <img className="h-10 w-auto flex-none" src={logo} alt="logo" />
+              </div>
             </figure>
             {testimonials.map((columnGroup, columnGroupIdx) => (
               <div

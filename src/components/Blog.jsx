@@ -2,7 +2,7 @@ import profile from "../assets/lawyer.png";
 const posts = [
   {
     id: 1,
-    title: "Lyrica'ya İlişkin",
+    title: "Lyrica Satmak Veya Kullanmak Suç Mu?",
     href: "/blog/lyrica-ya-iliskin",
     description:
       "Yeşil reçete ile satılan pregabalin etken maddeli haplara ilişkin  Adli Tıp Kurumu 5.Adli Tıp İhtisas Kurulu'nun 07/01/2019 tarihli raporuna göre...",
@@ -27,7 +27,7 @@ function Blog() {
             Blog
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-500">
-            Aşğıda Yudum Altan Bakır tarafından yazılmış blog yazılarını
+            Aşağıda Yudum Altan Bakır tarafından yazılmış blog yazılarını
             inceleyebilirsiniz. Merak ettikleriniz ve daha fazla için iletişime
             geçiniz.
           </p>

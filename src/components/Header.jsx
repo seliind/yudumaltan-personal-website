@@ -83,7 +83,7 @@ function Header() {
           </Dialog>
         </div>
         <main>
-          <div className="relative px-6 lg:px-8">
+          <div className="relative">
             <div className="w-full h-48 mt-10">
               <video
                 src={video}
@@ -110,13 +110,13 @@ function Header() {
                 <div className="mt-10 flex items-center justify-center gap-x-6 mb-10">
                   <Link
                     to={"/iletisim"}
-                    className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold hover:text-gray-900 text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                    className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold hover:text-gray-900 text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:shadow-xl"
                   >
                     İletişim
                   </Link>
                   <Link
                     to={"/hakkinda"}
-                    className="text-sm font-semibold leading-6 text-white"
+                    className="text-sm font-semibold leading-6 text-white hover:scale-105"
                   >
                     Daha fazla <span aria-hidden="true">→</span>
                   </Link>

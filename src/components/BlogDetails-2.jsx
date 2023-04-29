@@ -15,7 +15,7 @@ function BlogDetails2() {
           <img src={icon} className="h-8 w-8 mx-auto" alt="icon" />
         </span>
         <h1 className="text-xl lg:text-3xl font-bold tracking-wide text-black">
-          Lyrica'ya İlişkin
+          Lyrica Kullanmak Veya Satmak Suç Mu?
         </h1>
       </div>
       <div className="border-b mt-10 border-gray-300 w-full" />
