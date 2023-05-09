@@ -1,5 +1,6 @@
 {
   "name": "yudumaltan-website",
+  "homepage": "http://www.yudumaltanbakir.av.tr/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

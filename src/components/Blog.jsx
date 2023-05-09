@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import profile from "../assets/lawyer.png";
 const posts = [
   {
@@ -43,10 +44,10 @@ function Blog() {
               </div>
               <div className="group relative">
                 <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-700">
-                  <a href={post.href}>
+                  <Link to={post.href}>
                     <span className="absolute inset-0" />
                     {post.title}
-                  </a>
+                  </Link>
                 </h3>
                 <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
                   {post.description}
