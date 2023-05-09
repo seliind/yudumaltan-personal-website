@@ -4,7 +4,7 @@ const posts = [
   {
     id: 1,
     title: "Lyrica Satmak Veya Kullanmak Suç Mu?",
-    href: "/blog/lyrica-ya-iliskin",
+    href: "/lyrica-satmak-veya-kullanmak-suc-mu",
     description:
       "Yeşil reçete ile satılan pregabalin etken maddeli haplara ilişkin  Adli Tıp Kurumu 5.Adli Tıp İhtisas Kurulu'nun 07/01/2019 tarihli raporuna göre...",
     date: "05.01.2023",
@@ -12,7 +12,7 @@ const posts = [
   {
     id: 2,
     title: "TSK Yüksek Disiplin Kurulunda Savunma Nasıl Yapılır?",
-    href: "/blog/TSK-Yüksek-Disiplin-Kurulunda-Savunma",
+    href: "/TSK-Yuksek-Disiplin-Kurulunda-Savunma",
     description:
       "6413 Sayılı TSK Disiplin Kanununun  37/5 maddesine göre disiplin kuruluna sevk edilen personel; tahkikatın gizliliğini, üçüncü şahıs ve makamların özel bilgileri ile ...",
     date: "14.04.2023",
@@ -44,7 +44,7 @@ function Blog() {
               </div>
               <div className="group relative">
                 <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-700">
-                  <Link to={post.href}>
+                  <Link to={`${post.href}`}>
                     <span className="absolute inset-0" />
                     {post.title}
                   </Link>

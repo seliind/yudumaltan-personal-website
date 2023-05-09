@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, HashRouter} from "react-router-dom";
+import { Route, Routes, HashRouter} from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import References from "./pages/References";
@@ -18,8 +18,8 @@ function App() {
        <Route path="/referanslar" element={<References/>}/>
        <Route path="/hakkinda" element={<About/>}/>
        <Route path="/iletisim" element={<Contact/>}/>
-       <Route path="/TSK-Yüksek-Disiplin-Kurulunda-Savunma" element={<BlogDetails1/>}/>
-       <Route path="/lyrica-satmak-veya-kullanmak-suç-mu" element={<BlogDetails2/>}/>
+       <Route path="/TSK-Yuksek-Disiplin-Kurulunda-Savunma" element={<BlogDetails1/>}/>
+       <Route path="/lyrica-satmak-veya-kullanmak-suc-mu" element={<BlogDetails2/>}/>
        </Route>
        </Routes>
        <Footer/>
