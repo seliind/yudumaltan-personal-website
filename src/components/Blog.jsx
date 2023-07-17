@@ -17,6 +17,14 @@ const posts = [
       "6413 Sayılı TSK Disiplin Kanununun  37/5 maddesine göre disiplin kuruluna sevk edilen personel; tahkikatın gizliliğini, üçüncü şahıs ve makamların özel bilgileri ile ...",
     date: "14.04.2023",
   },
+  {
+    id: 3,
+    title: "Evlilikte Bir Yıl Dolmadan Anlaşmalı Boşanma Olur Mu?",
+    href: "/anlasmali-bosanma",
+    description:
+      "Anlaşmalı boşanma davası açabilmek için tarafların boşanmanın sonuçları üzerinde şüpheye yer bırakmayacak düzeyde anlaşmış olması ve evliliğin ...",
+    date: "17.07.2023",
+  },
 ];
 
 function Blog() {

@@ -43,7 +43,7 @@ const testimonials = [
         img: img10,
       },
       {
-        body: "Şenzade Gıda ve Hayvancılık İnş. San. ve Tic Ltd. Şti.",
+        body: "Şenzade Gıda",
         img: img5,
       },
     ],
