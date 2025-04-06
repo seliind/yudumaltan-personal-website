@@ -28,11 +28,11 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
               href={
-                "https://bento.me/seliin"
+                "https://github.com/seliind"
               }
               className="text-[#A78B71] hover:underline"
             >
-              Selin Demircioğlu
+              Selin Demircioğlu Çavdar
             </a>
           </p>
         </div>

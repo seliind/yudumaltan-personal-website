@@ -26,7 +26,7 @@ function About() {
     <>
       <div className="px-2">
         <main className="isolate mt-14 md:mt-16">
-          <div className="mx-auto -mt-12 max-w-8xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
+          <div className="mx-auto -mt-12 max-w-8xl px-6 sm:mt-0 lg:px-8 xl:-mt-8 mb-6">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
               <h2 className="text-3xl font-bold tracking-wide text-[#583E26] sm:text-4xl">
                 Hakkında
@@ -96,30 +96,7 @@ function About() {
             </div>
           </div>
 
-          {/* Image section */}
-          <div className="mt-10 sm:mt-14 xl:mx-auto xl:max-w-7xl xl:px-8">
-            <img
-              src="https://images.pexels.com/photos/9272182/pexels-photo-9272182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="hukuk-kitapları"
-              className="aspect-[5/1] w-full object-cover xl:rounded-3xl"
-            />
-          </div>
 
-          <div className="flex justify-center items-center mt-10 mb-6">
-            {stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="flex flex-col-reverse gap-y-4 p-3 hover:scale-105 mx-auto"
-              >
-                <div className="text-base leading-7 text-gray-600 flex justify-center">
-                  {stat.label}
-                </div>
-                <div className="text-gray-900 flex justify-center">
-                  <stat.icon className="h-14 w-14 hover:cursor-pointer hover:scale-110" />
-                </div>
-              </div>
-            ))}
-          </div>
         </main>
       </div>
     </>

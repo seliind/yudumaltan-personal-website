@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
-import video from "../assets/video.mp4";
-import logo from "../assets/logo.png";
 import styles from "./Header.module.css";
+import logo from "../assets/logo.png";
+
 const navigation = [
   { name: "Ana Sayfa", href: "/" },
   { name: "Hakkında", href: "/hakkinda" },
@@ -22,14 +22,13 @@ function Header() {
            
             <div className="mr-auto hidden lg:flex">
             <Link to="/">
-              <img
+            <img
                 src={logo}
                 alt="logo"
                 className="h-12 w-14 object-cover rounded-lg"
-              /> </Link>
+              /></Link>
             </div>
-           
-
+        
             <div className="flex mr-auto lg:hidden">
               <button
                 type="button"
@@ -84,17 +83,10 @@ function Header() {
         </div>
         <main>
           <div className="relative">
-            <div className="w-full h-48 mt-10">
-              <video
-                src={video}
-                autoPlay
-                loop
-                muted
-                className="w-full h-full object-cover"
-              />
-            </div>
             <div className="mx-auto max-w-2xl py-4 lg:py-8">
-              <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
+              <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+               
+              </div>
               <div className="text-center">
               
                 <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">

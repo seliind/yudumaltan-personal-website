@@ -10,7 +10,7 @@ function Contact() {
     <>
       <div className="relative isolate bg-white">
         <div className="mx-auto grid max-w-7xl relative px-3 pt-6 sm:pt-14 lg:static lg:px-8">
-          <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+          <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2" style={{ height: "77vh" }}>
             <div className="relative px-6 pt-5 pb-20 lg:static lg:px-8">
               <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
                 <h2 className="text-3xl font-bold tracking-tight text-[#583E26]">
@@ -29,9 +29,9 @@ function Contact() {
                       />
                     </dt>
                     <dd>
-                      Ehlibeyt Mahallesi Ceyhun Atuf Kansu Cad.
+                    Kazım Özalp Mah. Uğur Mumcu Caddesi
                       <br />
-                      107/1, Balgat
+                      5/6
                       <br />
                       Çankaya/ANKARA
                     </dd>
@@ -73,20 +73,9 @@ function Contact() {
                 </dl>
               </div>
             </div>
-            <div className="hidden md:flex justify-center items-center px-6 pb-24 pt-5 sm:pb-32 lg:px-8">
-              <div className="mx-auto">
-                <img
-                  src="https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt="contact"
-                  className={`${styles.phone} w-full object-cover mx-auto`}
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="overflow-hidden flex justify-center mb-5 bg-gray-100 opacity-60 z-5">
+            <div className="flex justify-center mb-5 z-5">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.185229729609!2d32.8143610747982!3d39.89248497152866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d345f9820f29dd%3A0x1729a999cb3a0741!2sEhlibeyt%2C%20Ceyhun%20Atuf%20Kansu%20Cd.%20No%3A107%2C%2006520%20%C3%87ankaya%2FAnkara!5e0!3m2!1str!2str!4v1681502386227!5m2!1str!2str"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.2007684771293!2d32.872105856311215!3d39.89213704088874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f9363957735%3A0x90dff4c6bc178805!2sGaziosmanpa%C5%9Fa%2C%20U%C4%9Fur%20Mumcu%20Cd.%2039%2F5%20D%3A6%2C%2006700%20Ankara%2F%C3%87ankaya%2FAnkara!5e0!3m2!1str!2str!4v1741715583210!5m2!1str!2str"
               width="800"
               height="600"
               allowFullScreen=""
@@ -95,6 +84,9 @@ function Contact() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
+          </div>
+
+        
         </div>
       </div>
     </>

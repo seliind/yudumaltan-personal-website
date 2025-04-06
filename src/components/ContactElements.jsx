@@ -2,6 +2,7 @@ import img1 from "../assets/agreement.png";
 import img2 from "../assets/auction.png";
 import img3 from "../assets/law.png";
 import img4 from "../assets/courthouse.png";
+import lawbooks from "../assets/law-books.jpg";
 
 const stats = [
   { id: 1, name: "Güvenli İlişki", img: img1 },
@@ -13,7 +14,7 @@ const stats = [
 function ContactElements() {
   return (
     <>
-      <div className="bg-white py-16">
+      <div className="bg-white pt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="text-center">
@@ -39,6 +40,11 @@ function ContactElements() {
               ))}
             </dl>
           </div>
+        
+          <div className="hidden sm:mb-8 sm:flex sm:justify-center mt-5">
+          <img src={lawbooks} alt="" className="w-full h-[26rem]"/>
+               </div>
+    
         </div>
       </div>
       .
